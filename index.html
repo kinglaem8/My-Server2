@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Profil personnel</title>
+</head>
+<body>
+
+<h2>Créer ton profil</h2>
+
+<form action="http://TON_IP:3000/submit" method="POST">
+    
+    <label>Nom :</label><br>
+    <input type="text" name="nom" required><br><br>
+
+    <label>Date de naissance :</label><br>
+    <input type="date" name="naissance" required><br><br>
+
+    <label>Couleur préférée :</label><br>
+    <input type="text" name="couleur"><br><br>
+
+    <label>Langue :</label><br>
+    <input type="text" name="langue"><br><br>
+
+    <label>Footballeur préféré :</label><br>
+    <input type="text" name="footballeur"><br><br>
+
+    <button type="submit">Envoyer</button>
+</form>
+
+<p>Les informations seront envoyées avec votre accord.</p>
+
+</body>
+</html>
